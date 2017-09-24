@@ -13,5 +13,9 @@
       <display-name>manifest</display-name>
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("manifest"))]]></place>
     </injection>
+    <injection language="XML" injector-id="xml">
+      <display-name>menu</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("menu"))]]></place>
+    </injection>
   </component>
 </application>
